@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    max-height: 150px;  
+}
+#logo{
+    display: inline-block;
+    position: relative;
+    left: 3rem;
+    /* top: 1rem; */
+    /* bottom: 1rem; */
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 4rem;
+    top: 3rem;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    
+}
+
+.seccion{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    margin: 3rem;
+    background-color: rgb(48, 47, 47);
+    color: white;   
+}
+
+#intro{
+    padding: 3rem;
+    margin: 3rem;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+#contenedor{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.circular{
+    /* FORMA Y RECORTE DE IMAGEN */
+    border-radius: 50%;
+    border: solid 5px gray;
+    overflow: hidden;
+    background-color: white;
+    /* DESCRIPCION Y SU ALINEACION */
+    margin-bottom: 10px;
+    text-align: center;
+
+    /* DIMENSIONES Y RESPONSIVE */
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    
+}
+.circular img{
+    padding-top: 25px;
+}
+    
+
+#icono{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.mini{
+    
+    text-align: center;
+
+}
+.flexcard h3,a{
+    text-align: center;
+}
+.rectangular{
+    width: 250px;
+    height: 150px;
+    border: solid 1px white;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    text-align: center;
+}
+.rectangular img{
+    position: relative;
+    right: 25px;
+
+}
+.flexcard{
+    border: solid 1px white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+footer{
+    margin: 1rem;
+    padding: 1rem;
+    border-top: 1px solid gray;
+}
