@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 header{
+    background-color: whitesmoke;
     border-bottom: 1px solid gray;
     max-height: 150px; 
     margin-left: 3rem;
@@ -71,15 +73,13 @@ header{
             width: 150px;
             border-radius: 50%;
             border: solid 5px gray;
-            overflow: hidden;
             background-color: white;
             margin: auto;
             margin-top: 15px;
             margin-bottom: 10px;
             text-align: center;
-
+            overflow: hidden;
         }
-
             .circular img{
                 padding-top: 25px;
             }
@@ -136,4 +136,27 @@ footer{
     margin: 1rem;
     padding: 1rem;
     border-top: 1px solid gray;
+    text-align: center;
+}
+
+footer h2{
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+footer ul li{
+    list-style: none;
+    font-size: xx-large;
+    
+}
+
+footer ul li a{
+    color: black;
 }
