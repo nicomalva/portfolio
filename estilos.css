@@ -51,6 +51,7 @@ header{
             font-weight: 900;
         }
 
+    
 #lenguajes{
     height: auto;
     display: flex;
@@ -164,3 +165,9 @@ footer ul li{
 footer ul li a{
     color: black;
 }
+@media screen and (max-width: 860px){
+    #portada{
+        display: none;
+    }
+
+    }
