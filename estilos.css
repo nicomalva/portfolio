@@ -37,8 +37,8 @@ header{
     justify-content: space-evenly;
     /* padding: 3rem; */
     margin: 3rem;
-    background-color: black;
-    color: white;   
+    /* background-color: black; */
+    /* color: white;    */
 }
 
     #intro{
@@ -57,9 +57,13 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
 }
     .flexitem{
         /* border: solid 1px white; */
+
         border-radius: 10px;
         overflow: hidden;
         height: 250px;
@@ -108,7 +112,7 @@ header{
         .rectangular{
             width: 250px;
             height: 150px;
-            border: solid 1px white;
+            border: solid 2px gray;
             border-radius: 10px;
             
             justify-content: space-evenly;
